@@ -2,7 +2,7 @@
 
 int main() {
 
-    printf("Hello, Wold!");
+    printf("Hello, Wold!"); //this is a comment
     printf("I am learning\n");
     return 0; //if code = 0 then program ran successfully, if not then there was an error
     }

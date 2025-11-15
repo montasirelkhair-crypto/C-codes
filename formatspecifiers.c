@@ -34,6 +34,7 @@ int main () {
     // %.1 = decimal point with 1 digit
     // %1 = minimum field width of 1
     // %- = left-justify within the given field width
+    
     printf("item 3: $%-6.1f\n", item3); //left-justify within the given field width of 6
     printf("item 2: $%-2f\n", item2); //left-justify within the given field width of 8
 

@@ -21,4 +21,21 @@ int main () {
     and many more.
     */
     
+    float item1 = 5.75;
+    float item2 = 6.25;
+    float item3 = 7.50;
+    printf("item 1: $%.2f\n", item1); //2 digits after the decimal point
+    printf("item 2: $%.2f\n", item2); //2 digits after the decimal point
+    printf("item 3: $%.1f\n", item3); //1 digit after the decimal point
+
+    printf("item 1: $%6.2f\n", item1); //minimum field width of 6
+    printf("item 2: $%8.2f\n", item2); //minimum field width of 6
+
+    // %.1 = decimal point with 1 digit
+    // %1 = minimum field width of 1
+    // %- = left-justify within the given field width
+    printf("item 3: $%-6.1f\n", item3); //left-justify within the given field width of 6
+    printf("item 2: $%-2f\n", item2); //left-justify within the given field width of 8
+
+    return 0;
 }
